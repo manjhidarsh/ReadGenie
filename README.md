@@ -1,67 +1,51 @@
-# ReadGenie 📚  
-**LLM-Based Book Recommender System**
+# 📚 ReadGenie
 
-ReadGenie is a smart recommendation system powered by Large Language Models (LLMs). It analyzes book metadata, user reviews, sentiments, and text embeddings to suggest books users are most likely to enjoy.
+✨ LLM-Based Book Recommender System
 
----
+ReadGenie is an intelligent book recommendation system that leverages Large Language Models (LLMs) to analyze book metadata, user reviews, sentiments, and text embeddings. By combining traditional recommendation strategies with advanced language models, ReadGenie provides personalized book suggestions tailored to user preferences.
 
-## 🚀 How It Works
+## 🚀 Features
 
-ReadGenie combines traditional recommendation strategies with the power of LLMs to deliver accurate and personalized book recommendations:
-
-1. **Data Exploration**  
-   Explore the dataset to understand user preferences, book popularity, and review patterns.
-
-2. **Sentiment Analysis**  
-   Analyze user reviews to capture the emotional tone using NLP techniques. Positive or negative sentiments help in fine-tuning recommendations.
-
-3. **Text Classification**  
-   Classify books or reviews into categories (e.g., genre or topic) using machine learning models for better filtering.
-
-4. **Vector Search with Embeddings**  
-   Use vector representations of books (e.g., using sentence-transformers or similar models) to find semantically similar books.
-
-5. **Book Recommender Engine**  
-   Based on all of the above, generate top-N recommendations tailored to a user's preferences or search query.
-
----
-
-## 📁 Project Structure
-
-ReadGenie/
-├── book-recommender.py           # Main script for generating recommendations
-├── data-exploration.ipynb        # EDA and preprocessing
-├── sentiment-analysis.ipynb      # Sentiment analysis on reviews
-├── text-classification.ipynb     # Text classification models
-├── vector-search.ipynb           # Semantic similarity search using vectors
-
-
----
+1. Data Exploration - Gain insights into user preferences, book popularity, and review patterns through comprehensive data analysis.
+2. Sentiment Analysis - Utilize Natural Language Processing (NLP) techniques to assess the emotional tone of user reviews, enhancing recommendation accuracy.
+3. Text Classification - Employ machine learning models to categorize books and reviews by genre or topic for improved filtering.
+4. Vector Search with Embeddings - Implement vector representations of book content and user preferences to facilitate efficient and relevant recommendations.
 
 ## 🛠️ Getting Started
 
-### 1. Clone the Repository
+### 📌 Prerequisites
 
-```bash
-git clone https://github.com/manjhidarsh/LLM_Based_Recomender_sys.git
-cd LLM_Based_Recomender_sys
+Ensure you have the following installed:
 
-### 2. Set Up Environment
+Python 3.x
 
-python -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
+Jupyter Notebook
+
+Required Python libraries (as specified in requirements.txt)
+
+### 🔧 Installation
+
+1️⃣ Clone the Repository:
+
+git clone https://github.com/manjhidarsh/ReadGenie.git
+
+2️⃣ Navigate to the Project Directory:
+
+cd ReadGenie
+
+3️⃣ Install Required Libraries:
+
 pip install -r requirements.txt
 
-## 💡 Usage
+## 🎯 Usage
 
-1.Run notebooks in the following order:
+🔹 Data Exploration - Open and run the data-exploration.ipynb notebook to analyze the dataset and understand user preferences and book trends.
 
-   - data-exploration.ipynb
+🔹 Sentiment Analysis - Use the sentiment-analysis.ipynb notebook to perform sentiment analysis on user reviews, aiding in refining recommendations.
 
-   - sentiment-analysis.ipynb
+🔹 Text Classification - Execute the text-classification.ipynb notebook to classify books and reviews into relevant categories.
 
-   - text-classification.ipynb
+🔹 Vector Search with Embeddings - Run the vector-search.ipynb notebook to implement vector search techniques for efficient recommendation retrieval.
 
-   - vector-search.ipynb
+🔹 Book Recommender Script - Utilize the book-recommender.py script to generate book recommendations based on the analyses performed.
 
-2.Use book-recommender.py to generate final recommendations.
